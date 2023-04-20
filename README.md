@@ -1,4 +1,4 @@
-# Kill it with fire :fire:
+# Kill it with fire 🔥
 
 Fire is a simple bash script that allows users to kill processes by name or port number. It's a very thin wrapper, but definitely easier to remember to kill it with `fire` than to remember `lsof -ti :8080 | awk '{print "kill -9", $1}' | xargs -L 1 sh -c`
 
